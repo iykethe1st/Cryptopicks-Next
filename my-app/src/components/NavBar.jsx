@@ -14,7 +14,7 @@ const NavBar = () => {
   ];
 
   return (
-    <section className="text-lg grid grid-cols-1 md:flex md:justify-between md:px-[4rem] lg:px-[6rem] p-4">
+    <section className="text-lg grid grid-cols-1 md:flex md:justify-between md:px-[2rem] lg:px-[3rem] p-4">
       <div className="flex justify-between py-2 md:px-[2rem] flex-wrap">
         <div className="">
           <Logo />
