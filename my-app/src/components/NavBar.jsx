@@ -40,7 +40,7 @@ const NavBar = () => {
         <ul className="md:flex gap-16 items-center  w-[18rem] md:w-full">
           {navItems.map((nav) => (
             <div key={nav.id} to={nav.link}>
-              <li className="py-2  border-b-2 md:border-0 border-slate-400 hover:text-[#f44336] active:text-[#af504acf] cursor-pointer">
+              <li className="py-2  border-b-2 md:border-0 border-slate-400 cursor-pointer">
                 {nav.item}
               </li>
             </div>
